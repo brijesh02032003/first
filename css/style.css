@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+span,
+img {
+  width: 241px;
+  height: 111px;
+}
+
+#top_nav {
+  background-color: #daac00;
+  padding: 0 8%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.983);
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+#search_box {
+  background-color: #fcc302;
+  color: #fff;
+  border: 0;
+  border-radius: 0;
+  position: relative;
+  left: 47px;
+  box-shadow: 5px 10px 11px 0px #00000021;
+}
+
+#search_box::placeholder {
+  color: #fff;
+}
+
+#search_btn {
+  position: relative;
+  z-index: 99;
+  background-color: #00bec9;
+  border: 0;
+  color: #fff;
+  border-radius: 0;
+}
+
+@media only screen and (max-width:1151px) {
+  #img_logo {
+    width: 95px;
+    height: 111px;
+  }
+}
+
+@media only screen and (max-width:990px) {
+  #img_logo {
+    width: 211px;
+    height: 111px;
+  }
+}
+
+@media only screen and (max-width:311px) {
+  #img_logo {
+    width: 184px;
+    height: 111px;
+  }
+}
+
+@media only screen and (max-width:993px) {
+  #search_box {
+    width: 203px;
+    position: relative;
+    left: 21px;
+  }
+}
+
+@media only screen and (max-width:315px) {
+  #search_box {
+    width: 203px;
+    position: relative;
+    left: 21px;
+  }
+}
+
+@media only screen and (max-width:970px) {
+  #search_box {
+    position: relative;
+    left: 16px;
+  }
+}
+
+@media only screen and (max-width:570px) {
+  #search_box {
+    width: 220px;
+  }
+}
+
+/* banner */
+#banner {
+  background-color: #fcc302;
+  height: 450px;
+}
+
+#banner_text h1{
+  color: #fff;
+  font-size: 50px;
+  margin-top: 100px;
+}
+#banner_btn1{
+  background-color: #00bec9;
+  border: 2px solid #00bec9;
+  color: #fff;
+}
+#banner_text p{
+  color: #fff;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#banner_btn2{
+  color: #fff;
+  border: 2px solid #fff;
+  margin-left: 15px;
+}
+#banner_img img{
+  padding-top: 50px;
+  margin-left: 80px;
+}
+@media only screen and (max-width:948px) {
+  #banner_text h1{
+    font-size: 45px;
+  
+  }
+}
+@media only screen and (max-width:870px) {
+  #banner_text h1{
+    font-size: 40px;
+  
+  }
+}
+@media only screen and (max-width:870px) {
+  #banner_text h1{
+    font-size: 39px;
+  
+  }
+}
+@media only screen and (max-width:365px) {
+  #banner_text h1{
+    font-size: 29px;
+  
+  }
+}
+@media only screen and (max-width:850px) {
+  #banner_img img{
+    padding-top: 76px;
+    margin-left: 40px;
+  }
+}
